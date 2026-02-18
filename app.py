@@ -6,9 +6,229 @@ import json
 from typing import Dict, List, Optional
 import math
 
-# Advanced Pattern Recognition and AI Algorithms
+# Advanced Enlightenment AI with Comprehensive Spiritual and Scientific Knowledge
 class EnlightenmentAI:
     def __init__(self):
+        self.comprehensive_knowledge_base = {
+            'energy_fields': {
+                'quantum_fields': {
+                    'coherent_energy_systems': 'Body generates electromagnetic fields measurable at heart (5,000x stronger than brain)',
+                    'quantum_coherence_biology': 'Consciousness arises from quantum computations in neuronal microtubules (Penrose-Hameroff)',
+                    'zero_point_energy': 'Access quantum vacuum through void meditation for infinite potential',
+                    'protocol': 'Visualize body as coherent quantum field. Inhale universal energy, exhale personal coherence. Align with Schumann resonance (7.83 Hz)'
+                },
+                'morphogenetic_fields': {
+                    'collective_resonance': 'Rupert Sheldrake\'s morphic fields explain collective evolution and telepathy',
+                    'sacred_geometry_structuring': 'Flower of Life patterns structure personal energy fields for enhanced coherence',
+                    'protocol': 'Meditate on sacred geometry while visualizing field expansion. Practice daily for 15 minutes'
+                },
+                'bioelectromagnetic_harmony': {
+                    'schumann_alignment': 'Align body fields with Earth\'s Schumann resonance (7.83 Hz) for reduced dissonance',
+                    'chakra_broadcasting': 'Balanced chakras broadcast coherent fields attracting resonant frequencies',
+                    'protocol': 'Combine breathing, visualization, and sound. Use coherent breathing (5s inhale/exhale) with golden light expansion'
+                }
+            },
+            'dimensional_navigation': {
+                'astral_projection': {
+                    'ancient_wisdom': 'Esoteric traditions (Hermeticism, Tibetan Buddhism) describe astral travel',
+                    'scientific_basis': 'Altered states access subconscious or collective unconscious. EEG shows theta states',
+                    'protocol': [
+                        'Lie down, relax body progressively (tense/release muscles)',
+                        'Visualize silver cord connecting physical/astral bodies',
+                        'Use "roll-out" technique: imagine rolling out of body',
+                        'Explore realms, return by willing it'
+                    ],
+                    'duration': '20-30 minutes',
+                    'benefits': 'Healing, expanded awareness'
+                },
+                'shamanic_journeying': {
+                    'historical_references': 'Indigenous practices worldwide, Amazonian ayahuasca, Siberian shamanism',
+                    'modern_integration': 'Use drumming (4-7 Hz) for altered states',
+                    'protocol': [
+                        'Use rattling or drumming at theta frequencies',
+                        'Journey to lower world (power animals) or upper world (guides)',
+                        'Retrieve healing information, integrate upon return'
+                    ],
+                    'duration': '15-20 minutes'
+                },
+                'consciousness_expansion': {
+                    'lucid_dreaming': 'Perform reality checks daily. Use MILD technique. Stabilize with hand-rubbing',
+                    'merkaba_activation': 'Visualize interlocking tetrahedrons (electric counter-clockwise, magnetic clockwise)',
+                    'protocol': 'Combine with breathwork for light body ascension. Reference: Merkavah mysticism in Kabbalah'
+                }
+            },
+            'frequency_vibration_system': {
+                'solfeggio_scales': {
+                    '396': {'benefit': 'Liberate fear, guilt', 'note': 'Ut', 'chakra': 'Root'},
+                    '417': {'benefit': 'Facilitate change, undo situations', 'note': 'Re', 'chakra': 'Sacral'},
+                    '528': {'benefit': 'Transformation, DNA repair', 'note': 'Mi', 'chakra': 'Solar Plexus'},
+                    '639': {'benefit': 'Harmonize relationships', 'note': 'Fa', 'chakra': 'Heart'},
+                    '741': {'benefit': 'Awaken intuition', 'note': 'Sol', 'chakra': 'Throat'},
+                    '852': {'benefit': 'Return to spiritual order', 'note': 'La', 'chakra': 'Third Eye'},
+                    '963': {'benefit': 'Oneness with divine', 'note': 'Si', 'chakra': 'Crown'}
+                },
+                'binaural_beats': {
+                    'delta': {'hz': '0.5-4', 'benefit': 'Deep sleep, healing'},
+                    'theta': {'hz': '4-8', 'benefit': 'Meditation, intuition'},
+                    'alpha': {'hz': '8-12', 'benefit': 'Relaxation, creativity'},
+                    'beta': {'hz': '12-30', 'benefit': 'Focus, alertness'},
+                    'gamma': {'hz': '30-100', 'benefit': 'Insight, cognitive enhancement'}
+                },
+                'cosmic_harmonics': {
+                    'schumann': {'hz': 7.83, 'benefit': 'Earthing, alpha/theta alignment'},
+                    'universal_healing': {'hz': 432, 'benefit': 'Universal harmony, healing'},
+                    'planetary': {
+                        'mars': 144.72, 'venus': 221.23, 'mercury': 141.27,
+                        'jupiter': 183.58, 'saturn': 147.85, 'sun': 126.22
+                    },
+                    'phi_ratio': {'ratio': 1.618, 'benefit': 'Golden ratio harmony'}
+                }
+            },
+            'akashic_records': {
+                'meditation_techniques': {
+                    'theta_access': 'Enter theta states to access subconscious archives',
+                    'protocol': [
+                        'Enter theta via progressive relaxation',
+                        'Visualize Hall of Records or crystal library',
+                        'Ask specific questions with intention',
+                        'Receive via clairvoyance, clairaudience, or knowing'
+                    ],
+                    'duration': '20 minutes'
+                },
+                'visualization_methods': {
+                    'golden_book': 'Open personal Akashic record, read past/future',
+                    'council_elders': 'Seek guidance from higher selves',
+                    'past_life_regression': 'Access soul history for healing (Dr. Brian Weiss methods)'
+                },
+                'enhanced_access': 'Combine with binaural beats at 4-7 Hz for deeper access'
+            },
+            'source_connection': {
+                'unity_consciousness': {
+                    'brahman_realization': 'Advaita Vedanta - "Tat Tvam Asi" (Thou art That)',
+                    'quantum_entanglement': 'Non-local connections demonstrate unity',
+                    'protocol': '"I am" meditations. Experience interconnectedness via entanglement visualization'
+                },
+                'divine_connection_methods': {
+                    'bhakti_yoga': 'Devotional surrender, chanting divine names',
+                    'jnana_yoga': 'Self-inquiry "Who am I?" (Ramana Maharshi)',
+                    'raja_yoga': 'Eight-limbed path (Patanjali\'s Yoga Sutras)'
+                },
+                'constant_resonance': {
+                    'dhikr': 'Sufi practice of repeating sacred phrases',
+                    'divine_union': 'Embody Christ consciousness via loving-kindness',
+                    'protocol': 'Practice remembrance throughout day, integrating with activities'
+                }
+            },
+            'historical_traditions': {
+                'vedic': {
+                    'upanishads': 'Self-inquiry and unity realization',
+                    'bhagavad_gita': 'Karma yoga, bhakti, jnana paths',
+                    'tantra': 'Kundalini awakening, chakra system',
+                    'protocols': 'Vedanta meditation on unity, integrate karma yoga into daily life'
+                },
+                'buddhist': {
+                    'noble_eightfold_path': 'Ethical living, mindfulness',
+                    'vipassana': 'Insight meditation for liberation',
+                    'emptiness_meditation': 'Shunyata realization',
+                    'protocols': 'Satipatthana (four foundations of mindfulness) for presence'
+                },
+                'taoist': {
+                    'inner_alchemy': 'Energy transformation (nei dan)',
+                    'wu_wei': 'Effortless action in harmony with Tao',
+                    'natural_cycles': 'Align with yin-yang, five elements',
+                    'protocols': 'Embryonic breathing, reverse breathing for energy cultivation'
+                },
+                'sufi': {
+                    'love_mysticism': 'Divine intoxication (Rumi, Hafiz)',
+                    'whirling_dervishes': 'Ecstatic dance for transcendence',
+                    'stations_heart': 'Journey to divine union',
+                    'protocols': 'Dhikr with heart focus, ecstatic practices'
+                }
+            },
+            'scientific_studies': {
+                'consciousness_research': {
+                    'global_consciousness': 'Collective consciousness effects on random number generators',
+                    'heartmath_institute': 'Coherent emotions create measurable field effects (up to 8 feet radius)',
+                    'quantum_biology': 'Consciousness as coherent quantum state (Hameroff, Penrose)'
+                },
+                'neuroscience': {
+                    'meditation_studies': 'Increases gamma synchrony (Lutz et al., 2004), changes brain structure (Lazar et al., 2005)',
+                    'mindfulness': 'Quiets default mode network, boosts task-positive networks',
+                    'neuroplasticity': 'Meditation increases BDNF, promotes neurogenesis'
+                },
+                'quantum_physics': {
+                    'observer_effect': 'Intention collapses wave functions',
+                    'entanglement': 'Non-local connections explain telepathy',
+                    'zero_point_field': 'Source of infinite potential for manifestation'
+                }
+            },
+            'liberation_protocols': {
+                'enlightenment_phases': {
+                    'foundation': 'Daily meditation, breathwork, chakra balancing (Weeks 1-4)',
+                    'expansion': 'Astral projection, Akashic access, merkaba activation (Weeks 5-8)',
+                    'transcendence': 'Source connection, unity experiences, ego dissolution (Weeks 9-12)',
+                    'embodiment': 'Constant remembrance, service, liberated state maintenance'
+                },
+                'vibration_mastery': {
+                    'toning_chanting': 'Use solfeggio frequencies to master vibration',
+                    'frequency_riding': 'Use binaural beats to shift brainwaves to higher states'
+                },
+                'coherence_achievement': {
+                    'complete_coherence': 'Align physical, emotional, mental, spiritual bodies',
+                    'heartmath_techniques': 'For emotional coherence',
+                    'integrated_practices': 'Combine all dimensions via merkaba field'
+                }
+            }
+        }
+
+        self.spiritual_knowledge_base = {
+            'chakras': {
+                'muladhara': {'color': 'red', 'element': 'earth', 'mantra': 'LAM', 'deity': 'Ganesha', 'planet': 'Mars'},
+                'svadhisthana': {'color': 'orange', 'element': 'water', 'mantra': 'VAM', 'deity': 'Vishnu', 'planet': 'Venus'},
+                'manipura': {'color': 'yellow', 'element': 'fire', 'mantra': 'RAM', 'deity': 'Rudra', 'planet': 'Sun'},
+                'anahata': {'color': 'green', 'element': 'air', 'mantra': 'YAM', 'deity': 'Ishvara', 'planet': 'Mercury'},
+                'vishuddha': {'color': 'blue', 'element': 'ether', 'mantra': 'HAM', 'deity': 'Sadasiva', 'planet': 'Jupiter'},
+                'ajna': {'color': 'indigo', 'element': 'light', 'mantra': 'OM', 'deity': 'Shakti', 'planet': 'Moon'},
+                'sahasrara': {'color': 'violet/white', 'element': 'thought', 'mantra': 'OM', 'deity': 'Shiva', 'planet': 'Saturn'}
+            },
+            'frequencies': {
+                'schumann': {'hz': 7.83, 'benefit': 'earthing, stress reduction'},
+                'alpha': {'hz': '8-12', 'benefit': 'relaxation, creativity'},
+                'theta': {'hz': '4-8', 'benefit': 'meditation, intuition'},
+                'delta': {'hz': '0.5-4', 'benefit': 'deep sleep, healing'},
+                'gamma': {'hz': '30-100', 'benefit': 'insight, cognitive enhancement'},
+                'solfeggio': {
+                    396: 'liberation from fear',
+                    417: 'facilitating change',
+                    528: 'transformation, DNA repair',
+                    639: 'harmonizing relationships',
+                    741: 'awakening intuition',
+                    852: 'returning to spiritual order',
+                    963: 'oneness with divine'
+                }
+            },
+            'breathing_techniques': {
+                'pranayama': {
+                    'nadi_shodhana': 'alternate nostril breathing for balance',
+                    'kapalabhati': 'skull shining breath for purification',
+                    'bhastrika': 'bellows breath for energy',
+                    'ujjayi': 'victorious breath for focus',
+                    'sitali': 'cooling breath for calm'
+                },
+                'taoist': {
+                    'embryonic_breathing': 'deep abdominal breathing',
+                    'reverse_breathing': 'expanding chest, contracting abdomen'
+                }
+            },
+            'meditation_traditions': {
+                'vipassana': 'insight meditation from Theravada Buddhism',
+                'zen': 'mindfulness meditation from Mahayana Buddhism',
+                'transcendental': 'mantra meditation from Vedic tradition',
+                'kundalini': 'energy awakening through chakras',
+                'taoist': 'inner alchemy and immortality practices'
+            }
+        }
+
         self.pattern_weights = {
             'breathing': 1.0,
             'meditation': 1.0,
@@ -16,130 +236,132 @@ class EnlightenmentAI:
             'energy_work': 1.0,
             'morning_sessions': 1.2,
             'evening_sessions': 0.8,
-            'weekend_boost': 1.1
+            'weekend_boost': 1.1,
+            'full_moon_amplification': 1.5,
+            'new_moon_manifestation': 1.3
         }
-    
+
     def analyze_user_patterns(self, session_history: List[Dict]) -> Dict:
-        """Advanced pattern recognition for user behavior analysis"""
+        """Advanced pattern recognition with spiritual timing analysis"""
         if not session_history:
-            return {'optimal_time': 'morning', 'preferred_practice': 'breathing', 'intensity': 'beginner'}
-        
-        # Time pattern analysis
+            return {
+                'optimal_time': 'morning',
+                'preferred_practice': 'breathing',
+                'intensity': 'beginner',
+                'spiritual_alignment': 'earth_element',
+                'cosmic_phase': 'neutral'
+            }
+
+        # Enhanced time pattern analysis with cosmic timing
         hour_counts = {}
         practice_counts = {}
         duration_patterns = []
-        
-        for session in session_history[-30:]:  # Last 30 sessions
+        day_of_week_patterns = {}
+
+        for session in session_history[-50:]:  # Last 50 sessions for better analysis
             session_time = datetime.datetime.fromisoformat(session['date'])
             hour = session_time.hour
+            day_of_week = session_time.weekday()
             hour_counts[hour] = hour_counts.get(hour, 0) + 1
             practice_counts[session['practice_type']] = practice_counts.get(session['practice_type'], 0) + 1
             duration_patterns.append(session['duration'])
-        
-        # Determine optimal practice time
+            day_of_week_patterns[day_of_week] = day_of_week_patterns.get(day_of_week, 0) + 1
+
+        # Determine optimal practice time with spiritual significance
         if hour_counts:
             optimal_hour = max(hour_counts.keys(), key=lambda x: hour_counts[x])
-            if 5 <= optimal_hour <= 11:
-                optimal_time = 'morning'
-            elif 12 <= optimal_hour <= 17:
-                optimal_time = 'afternoon'
+            if 4 <= optimal_hour <= 8:
+                optimal_time = 'dawn_brahma_muhurta'
+            elif 9 <= optimal_hour <= 11:
+                optimal_time = 'morning_solar_power'
+            elif 12 <= optimal_hour <= 15:
+                optimal_time = 'afternoon_balanced'
+            elif 16 <= optimal_hour <= 19:
+                optimal_time = 'evening_lunar_flow'
             else:
-                optimal_time = 'evening'
+                optimal_time = 'night_spiritual_depth'
         else:
-            optimal_time = 'morning'
-        
-        # Determine preferred practice
+            optimal_time = 'morning_solar_power'
+
+        # Determine preferred practice with spiritual depth
         if practice_counts:
             preferred_practice = max(practice_counts.keys(), key=lambda x: practice_counts[x])
         else:
             preferred_practice = 'breathing'
-        
-        # Calculate intensity based on duration patterns
+
+        # Calculate intensity with spiritual progression
         avg_duration = sum(duration_patterns) / len(duration_patterns) if duration_patterns else 10
-        if avg_duration < 15:
-            intensity = 'beginner'
-        elif avg_duration < 30:
-            intensity = 'intermediate'
+        if avg_duration < 10:
+            intensity = 'seeker'
+        elif avg_duration < 20:
+            intensity = 'practitioner'
+        elif avg_duration < 40:
+            intensity = 'adept'
         else:
-            intensity = 'advanced'
-        
-        # Success rate calculation (based on streak and consistency)
-        recent_sessions = session_history[-7:]  # Last 7 days
+            intensity = 'master'
+
+        # Spiritual element alignment based on practices
+        element_alignment = self._calculate_elemental_alignment(practice_counts)
+
+        # Cosmic phase awareness
+        cosmic_phase = self._calculate_cosmic_phase()
+
+        # Success metrics
+        recent_sessions = session_history[-7:]
         consistency_score = len(recent_sessions) / 7.0
-        
+        streak = self._calculate_streak(session_history)
+
         return {
             'optimal_time': optimal_time,
             'preferred_practice': preferred_practice.lower().replace(' ', '_'),
             'intensity': intensity,
             'consistency_score': consistency_score,
             'avg_duration': avg_duration,
-            'peak_performance_hours': list(hour_counts.keys())[:3] if hour_counts else [9, 10, 11]
+            'peak_performance_hours': list(hour_counts.keys())[:3] if hour_counts else [6, 7, 8],
+            'spiritual_alignment': element_alignment,
+            'cosmic_phase': cosmic_phase,
+            'current_streak': streak,
+            'wisdom_level': self._calculate_wisdom_level(session_history)
         }
-    
-    def generate_quantum_manifestation_protocol(self, user_goals: List[str], experience_level: str) -> Dict:
-        """AI-generated quantum manifestation protocol"""
-        protocol = {
-            'intention_amplification': [],
-            'coherent_speech_patterns': [],
-            'energy_field_manipulation': [],
-            'quantum_resonance_frequencies': [],
-            'manifestation_timeline': []
-        }
-        
-        # Intention amplification based on goals
-        for goal in user_goals:
-            if 'memory' in goal.lower():
-                protocol['intention_amplification'].append("I effortlessly encode and retrieve information through quantum coherence")
-                protocol['quantum_resonance_frequencies'].append('40 Hz Gamma waves')
-            elif 'focus' in goal.lower():
-                protocol['intention_amplification'].append("My mind achieves perfect concentration through unified field alignment")
-                protocol['quantum_resonance_frequencies'].append('12 Hz Beta waves')
-            elif 'spiritual' in goal.lower():
-                protocol['intention_amplification'].append("I am one with universal consciousness and infinite potential")
-                protocol['quantum_resonance_frequencies'].append('432 Hz Universal harmony')
-        
-        # Coherent speech patterns
-        protocol['coherent_speech_patterns'] = [
-            "I speak with the power of coherent quantum fields",
-            "My words resonate with universal harmony",
-            "I manifest through vibration and intention"
-        ]
-        
-        # Energy field manipulation
-        if experience_level == 'Advanced':
-            protocol['energy_field_manipulation'] = [
-                "Visualize toroidal energy fields around your body",
-                "Feel the quantum entanglement of particles",
-                "Amplify intention through focused electromagnetic coherence"
-            ]
+
+    def _calculate_elemental_alignment(self, practice_counts: Dict) -> str:
+        """Calculate user's elemental alignment based on practices"""
+        elements = {'earth': 0, 'water': 0, 'fire': 0, 'air': 0, 'ether': 0}
+
+        for practice, count in practice_counts.items():
+            practice_lower = practice.lower()
+            if 'grounding' in practice_lower or 'earthing' in practice_lower:
+                elements['earth'] += count * 2
+            elif 'breathing' in practice_lower or 'pranayama' in practice_lower:
+                elements['air'] += count * 1.5
+            elif 'meditation' in practice_lower:
+                elements['ether'] += count * 1.8
+            elif 'kundalini' in practice_lower or 'energy' in practice_lower:
+                elements['fire'] += count * 2
+            elif 'sound' in practice_lower or 'frequency' in practice_lower:
+                elements['water'] += count * 1.5
+
+        return max(elements.keys(), key=lambda x: elements[x]) if elements else 'earth'
+
+    def _calculate_cosmic_phase(self) -> str:
+        """Calculate current cosmic phase for practice enhancement"""
+        today = datetime.date.today()
+        # Simplified lunar phase calculation (would need proper astronomical calculation)
+        day_of_month = today.day
+        if day_of_month <= 7:
+            return 'new_moon_manifestation'
+        elif day_of_month <= 15:
+            return 'waxing_moon_growth'
+        elif day_of_month <= 22:
+            return 'full_moon_amplification'
         else:
-            protocol['energy_field_manipulation'] = [
-                "Feel warm energy flowing through your body",
-                "Imagine golden light connecting all cells",
-                "Sense the harmony of your energy field"
-            ]
-        
-        # Timeline based on experience
-        if experience_level == 'Beginner':
-            protocol['manifestation_timeline'] = ['Week 1-2: Foundation', 'Week 3-4: Practice', 'Month 2: Initial Results']
-        elif experience_level == 'Intermediate':
-            protocol['manifestation_timeline'] = ['Week 1: Integration', 'Week 2-3: Amplification', 'Month 1: Manifestation']
-        else:
-            protocol['manifestation_timeline'] = ['Day 1-3: Alignment', 'Week 1: Coherence', 'Week 2: Manifestation']
-        
-        return protocol
-    
-    def calculate_quantum_coherence_score(self, session_history: List[Dict]) -> float:
-        """Calculate quantum coherence score based on practice patterns"""
+            return 'waning_moon_release'
+
+    def _calculate_streak(self, session_history: List[Dict]) -> int:
+        """Calculate current practice streak"""
         if not session_history:
-            return 0.0
-        
-        # Factors: consistency, duration, variety, streak
-        consistency = len(session_history) / max(1, (datetime.datetime.now() - datetime.datetime.fromisoformat(session_history[0]['date'])).days)
-        avg_duration = sum(s['duration'] for s in session_history) / len(session_history)
-        practice_variety = len(set(s['practice_type'] for s in session_history))
-        
-        # Calculate streak
+            return 0
+
         streak = 0
         current_date = datetime.date.today()
         for i in range(len(session_history)):
@@ -148,9 +370,225 @@ class EnlightenmentAI:
                 streak += 1
             else:
                 break
-        
-        # Quantum coherence formula (simplified)
-        coherence = (consistency * 0.3 + avg_duration/60 * 0.3 + practice_variety/5 * 0.2 + streak/30 * 0.2)
+        return streak
+
+    def _calculate_wisdom_level(self, session_history: List[Dict]) -> str:
+        """Calculate spiritual wisdom level based on practice depth and consistency"""
+        if not session_history:
+            return 'aspirant'
+
+        total_sessions = len(session_history)
+        avg_duration = sum(s['duration'] for s in session_history) / total_sessions
+        unique_practices = len(set(s['practice_type'] for s in session_history))
+        consistency = len([s for s in session_history[-30:]]) / 30.0  # Last 30 days
+
+        wisdom_score = (total_sessions * 0.1 + avg_duration * 0.2 + unique_practices * 5 + consistency * 20)
+
+        if wisdom_score < 10:
+            return 'aspirant'
+        elif wisdom_score < 25:
+            return 'seeker'
+        elif wisdom_score < 50:
+            return 'practitioner'
+        elif wisdom_score < 100:
+            return 'adept'
+        else:
+            return 'master'
+
+    def generate_spiritual_guidance(self, user_patterns: Dict, user_goals: List[str]) -> Dict:
+        """Generate deep spiritual guidance based on user patterns and ancient wisdom"""
+        guidance = {
+            'primary_element': user_patterns['spiritual_alignment'],
+            'cosmic_timing': user_patterns['optimal_time'],
+            'wisdom_tradition': '',
+            'sacred_practice': '',
+            'mantra_recommendation': '',
+            'affirmation_sequence': [],
+            'energy_alignment': '',
+            'liberation_path': []
+        }
+
+        # Determine wisdom tradition based on elemental alignment
+        element = user_patterns['spiritual_alignment']
+        if element == 'earth':
+            guidance['wisdom_tradition'] = 'Taoist Alchemy - Foundation & Stability'
+            guidance['sacred_practice'] = 'Grounding meditation with earth element visualization'
+            guidance['mantra_recommendation'] = 'OM SHANTI SHANTI SHANTI'
+        elif element == 'water':
+            guidance['wisdom_tradition'] = 'Buddhist Mindfulness - Flow & Compassion'
+            guidance['sacred_practice'] = 'Loving-kindness meditation with water element flow'
+            guidance['mantra_recommendation'] = 'OM MANI PADME HUM'
+        elif element == 'fire':
+            guidance['wisdom_tradition'] = 'Kundalini Yoga - Transformation & Power'
+            guidance['sacred_practice'] = 'Breath of fire with inner fire visualization'
+            guidance['mantra_recommendation'] = 'OM AGASthi SHAKthiNAH'
+        elif element == 'air':
+            guidance['wisdom_tradition'] = 'Vedantic Philosophy - Freedom & Knowledge'
+            guidance['sacred_practice'] = 'Pranayama with space element expansion'
+            guidance['mantra_recommendation'] = 'SO HAM (I am That)'
+        else:  # ether
+            guidance['wisdom_tradition'] = 'Advaita Vedanta - Unity Consciousness'
+            guidance['sacred_practice'] = 'Transcendental meditation in infinite space'
+            guidance['mantra_recommendation'] = 'OM TAT SAT'
+
+        # Generate affirmation sequence based on goals and wisdom level
+        wisdom_level = user_patterns['wisdom_level']
+        if 'memory' in str(user_goals).lower():
+            guidance['affirmation_sequence'] = [
+                "I am perfectly designed for learning and remembering",
+                "My mind is a sacred vessel of infinite wisdom",
+                "Knowledge flows to me effortlessly and naturally"
+            ]
+        elif 'spiritual' in str(user_goals).lower():
+            guidance['affirmation_sequence'] = [
+                "I am the eternal consciousness experiencing itself",
+                "Divine light flows through me and guides my path",
+                "I am one with the universal intelligence"
+            ]
+        else:
+            guidance['affirmation_sequence'] = [
+                "I am aligned with my highest purpose",
+                "Peace and clarity flow through my being",
+                "I radiate love and wisdom to all beings"
+            ]
+
+        # Energy alignment based on cosmic phase
+        cosmic_phase = user_patterns['cosmic_phase']
+        if 'new_moon' in cosmic_phase:
+            guidance['energy_alignment'] = 'Plant seeds of intention in the fertile darkness'
+        elif 'full_moon' in cosmic_phase:
+            guidance['energy_alignment'] = 'Amplify your energy with lunar illumination'
+        elif 'waxing' in cosmic_phase:
+            guidance['energy_alignment'] = 'Build momentum with growing lunar light'
+        else:
+            guidance['energy_alignment'] = 'Release what no longer serves in lunar darkness'
+
+        # Liberation path based on wisdom level
+        if wisdom_level == 'aspirant':
+            guidance['liberation_path'] = ['Establish daily practice', 'Learn basic techniques', 'Build consistency']
+        elif wisdom_level == 'seeker':
+            guidance['liberation_path'] = ['Deepen meditation practice', 'Study sacred texts', 'Connect with spiritual community']
+        elif wisdom_level == 'practitioner':
+            guidance['liberation_path'] = ['Master advanced techniques', 'Teach others', 'Integrate wisdom into daily life']
+        elif wisdom_level == 'adept':
+            guidance['liberation_path'] = ['Transcend ego identification', 'Experience unity consciousness', 'Serve as spiritual guide']
+        else:  # master
+            guidance['liberation_path'] = ['Embody enlightenment', 'Dissolve into pure awareness', 'Become one with the divine']
+
+        return guidance
+
+    def generate_quantum_manifestation_protocol(self, user_goals: List[str], experience_level: str) -> Dict:
+        """AI-generated quantum manifestation protocol with deep spiritual wisdom"""
+        protocol = {
+            'intention_amplification': [],
+            'coherent_speech_patterns': [],
+            'energy_field_manipulation': [],
+            'quantum_resonance_frequencies': [],
+            'manifestation_timeline': [],
+            'sacred_geometry_alignment': '',
+            'divine_timing': '',
+            'spiritual_ally_invocation': ''
+        }
+
+        # Enhanced intention amplification with spiritual depth
+        for goal in user_goals:
+            if 'memory' in goal.lower():
+                protocol['intention_amplification'].append("Through Saraswati's divine grace, my mind becomes a perfect vessel for infinite knowledge")
+                protocol['spiritual_ally_invocation'] = 'Saraswati, Goddess of Wisdom and Learning'
+                protocol['sacred_geometry_alignment'] = 'Sri Yantra - for knowledge manifestation'
+            elif 'focus' in goal.lower():
+                protocol['intention_amplification'].append("With Shiva's unwavering concentration, my mind achieves perfect one-pointed focus")
+                protocol['spiritual_ally_invocation'] = 'Shiva, Lord of Concentration and Transformation'
+                protocol['sacred_geometry_alignment'] = 'Vesica Piscis - for focused intention'
+            elif 'spiritual' in goal.lower():
+                protocol['intention_amplification'].append("In union with Brahman, I realize my true nature as pure consciousness")
+                protocol['spiritual_ally_invocation'] = 'Brahman, the Ultimate Reality'
+                protocol['sacred_geometry_alignment'] = 'Flower of Life - for spiritual awakening'
+            elif 'healing' in goal.lower():
+                protocol['intention_amplification'].append("Through divine healing light, my body temple is restored to perfect harmony")
+                protocol['spiritual_ally_invocation'] = 'Asclepius, Divine Healer'
+                protocol['sacred_geometry_alignment'] = 'Metatron\'s Cube - for healing and protection'
+
+        # Coherent speech patterns with mantric power
+        protocol['coherent_speech_patterns'] = [
+            "I speak with the power of divine sound - OM",
+            "My words carry the vibration of universal truth",
+            "I manifest through sacred speech and intention"
+        ]
+
+        # Energy field manipulation with spiritual practices
+        if experience_level == 'Advanced':
+            protocol['energy_field_manipulation'] = [
+                "Visualize the Luminous Egg surrounding your aura",
+                "Connect with the cosmic web of Indra's net",
+                "Channel energy through the Tree of Life pathways",
+                "Align with the Akashic Records for divine guidance"
+            ]
+        else:
+            protocol['energy_field_manipulation'] = [
+                "Feel golden light filling every cell of your being",
+                "Imagine roots connecting you to the Earth's core",
+                "Sense the flow of prana through your energy channels",
+                "Connect your heart chakra to universal love"
+            ]
+
+        # Timeline based on experience with spiritual milestones
+        if experience_level == 'Beginner':
+            protocol['manifestation_timeline'] = [
+                'Days 1-7: Purification and preparation',
+                'Days 8-14: Building sacred momentum',
+                'Days 15-21: First manifestations appear',
+                'Days 22-28: Integration and gratitude'
+            ]
+            protocol['divine_timing'] = 'Align with the lunar cycle for maximum potency'
+        elif experience_level == 'Intermediate':
+            protocol['manifestation_timeline'] = [
+                'Week 1: Deepen spiritual connection',
+                'Week 2: Amplify energy through practice',
+                'Week 3: Witness synchronicities increase',
+                'Week 4: Manifestation becomes reality'
+            ]
+            protocol['divine_timing'] = 'Practice during Brahma Muhurta (dawn) for spiritual power'
+        else:
+            protocol['manifestation_timeline'] = [
+                'Phase 1: Quantum field alignment (3 days)',
+                'Phase 2: Sacred geometry activation (7 days)',
+                'Phase 3: Divine intervention (14 days)',
+                'Phase 4: Complete manifestation (28 days)'
+            ]
+            protocol['divine_timing'] = 'Follow the Vedic calendar for auspicious timing'
+
+        return protocol
+
+    def calculate_quantum_coherence_score(self, session_history: List[Dict]) -> float:
+        """Calculate quantum coherence with spiritual factors"""
+        if not session_history:
+            return 0.0
+
+        # Enhanced factors including spiritual alignment
+        consistency = len(session_history) / max(1, (datetime.datetime.now() - datetime.datetime.fromisoformat(session_history[0]['date'])).days)
+        avg_duration = sum(s['duration'] for s in session_history) / len(session_history)
+        practice_variety = len(set(s['practice_type'] for s in session_history))
+        unique_days = len(set(datetime.datetime.fromisoformat(s['date']).date() for s in session_history))
+
+        # Spiritual coherence factors
+        spiritual_depth = practice_variety * 0.1  # More variety = deeper practice
+        temporal_alignment = unique_days / max(1, len(session_history))  # Daily practice vs binging
+
+        # Calculate streak with spiritual significance
+        streak = self._calculate_streak(session_history)
+        streak_bonus = min(streak * 0.05, 0.5)  # Cap at 50% bonus
+
+        # Quantum coherence formula with spiritual weighting
+        coherence = (
+            consistency * 0.25 +
+            avg_duration/60 * 0.20 +
+            practice_variety/5 * 0.15 +
+            spiritual_depth * 0.15 +
+            temporal_alignment * 0.15 +
+            streak_bonus * 0.10
+        )
+
         return min(1.0, coherence)
 
 # Initialize AI system
@@ -192,9 +630,12 @@ def update_user_profile(name: str, experience_level: str, goals: List[str], prac
     })
 
 def generate_personalized_protocol() -> Dict:
-    """Generate a custom protocol based on user profile with AI enhancement"""
+    """Generate a custom protocol based on user profile with AI enhancement and spiritual guidance"""
     profile = st.session_state.user_profile
     ai_patterns = enlightenment_ai.analyze_user_patterns(profile['session_history'])
+
+    # Generate deep spiritual guidance
+    spiritual_guidance = enlightenment_ai.generate_spiritual_guidance(ai_patterns, profile['main_goals'])
 
     protocol = {
         'daily_routine': [],
@@ -204,15 +645,23 @@ def generate_personalized_protocol() -> Dict:
         'progression_path': [],
         'optimal_practice_time': ai_patterns['optimal_time'],
         'ai_insights': [],
-        'quantum_manifestation': {}
+        'quantum_manifestation': {},
+        'spiritual_guidance': spiritual_guidance,
+        'wisdom_level': ai_patterns['wisdom_level'],
+        'elemental_alignment': ai_patterns['spiritual_alignment'],
+        'cosmic_phase': ai_patterns['cosmic_phase']
     }
 
-    # AI-enhanced protocol generation
+    # Enhanced AI insights with spiritual depth
     protocol['ai_insights'] = [
-        f"Based on your patterns, {ai_patterns['optimal_time']} sessions work best for you",
-        f"Your preferred practice is {ai_patterns['preferred_practice'].replace('_', ' ')}",
-        f"Current intensity level: {ai_patterns['intensity']}",
-        f"Consistency score: {ai_patterns['consistency_score']:.2f}/1.0"
+        f"🕉️ Based on your patterns, {ai_patterns['optimal_time']} sessions align with your natural rhythm",
+        f"🌿 Your preferred practice is {ai_patterns['preferred_practice'].replace('_', ' ')} - perfect for your {ai_patterns['spiritual_alignment']} nature",
+        f"⭐ Current wisdom level: {ai_patterns['wisdom_level']} ({ai_patterns['intensity']} practitioner)",
+        f"🌙 Cosmic phase: {ai_patterns['cosmic_phase']} - {spiritual_guidance['energy_alignment']}",
+        f"📊 Consistency score: {ai_patterns['consistency_score']:.2f}/1.0 - {ai_patterns['current_streak']} day streak",
+        f"🕯️ Spiritual tradition: {spiritual_guidance['wisdom_tradition']}",
+        f"🙏 Sacred practice: {spiritual_guidance['sacred_practice']}",
+        f"🕉️ Mantra: {spiritual_guidance['mantra_recommendation']}"
     ]
 
     # Base protocol from Enlightenment_Protocol.md with AI adaptation
@@ -223,7 +672,7 @@ def generate_personalized_protocol() -> Dict:
         "Sound Frequency Exposure"
     ]
 
-    # AI-customize based on experience level and patterns
+    # AI-customize based on experience level and patterns with spiritual enhancement
     if profile['experience_level'] == 'Beginner':
         protocol['daily_routine'] = [base_steps[0], base_steps[1]]  # Start with basics
         protocol['recommended_frequencies'] = ['Alpha (8-12 Hz)', 'Theta (4-8 Hz)']
@@ -237,49 +686,72 @@ def generate_personalized_protocol() -> Dict:
         protocol['recommended_frequencies'] = ['Gamma (30-100 Hz)', 'Solfeggio 528 Hz', 'Binaural Beats 40 Hz']
         protocol['progression_path'] = ["Foundation", "Awareness", "Coherence", "Activation", "Enlightenment"]
 
-    # AI-adapt based on preferred practice
+    # AI-adapt based on preferred practice with spiritual context
     if ai_patterns['preferred_practice'] == 'breathing':
-        protocol['daily_routine'].insert(0, "Extended Breathing Practice")
+        protocol['daily_routine'].insert(0, "Extended Pranayama Practice")
+        protocol['ai_insights'].append("🌬️ Breathing focus aligns with your air element nature - prana flows freely")
     elif ai_patterns['preferred_practice'] == 'meditation':
-        protocol['daily_routine'].insert(2, "Deep Meditation Session")
+        protocol['daily_routine'].insert(2, "Deep Dhyana Session")
+        protocol['ai_insights'].append("🧘 Meditation mastery enhances your ether element connection")
 
-    # Customize based on goals with AI enhancement
+    # Enhanced customization based on goals with spiritual affirmations
     if 'memory' in profile['main_goals']:
-        protocol['custom_affirmations'].append("My mind retains and recalls information effortlessly")
+        protocol['custom_affirmations'].extend([
+            "My mind retains and recalls information effortlessly",
+            "Through Saraswati's grace, knowledge flows to me naturally",
+            "I am a perfect vessel for infinite wisdom"
+        ])
         protocol['recommended_frequencies'].append('Gamma (30-100 Hz)')
-        protocol['ai_insights'].append("Memory enhancement detected - gamma waves will accelerate hippocampus function")
+        protocol['ai_insights'].append("📚 Memory enhancement: Gamma waves accelerate hippocampus function through divine intelligence")
     if 'focus' in profile['main_goals']:
-        protocol['custom_affirmations'].append("I maintain perfect concentration and clarity")
+        protocol['custom_affirmations'].extend([
+            "I maintain perfect concentration and clarity",
+            "Shiva's unwavering focus flows through me",
+            "My mind is steady as the eternal mountain"
+        ])
         protocol['recommended_frequencies'].append('Beta (13-30 Hz)')
-        protocol['ai_insights'].append("Focus optimization - beta waves enhance prefrontal cortex activity")
+        protocol['ai_insights'].append("🎯 Focus optimization: Beta waves enhance prefrontal cortex through Shiva's concentration")
     if 'spiritual' in profile['main_goals']:
-        protocol['custom_affirmations'].append("I am connected to universal consciousness and infinite potential")
+        protocol['custom_affirmations'].extend([
+            "I am connected to universal consciousness and infinite potential",
+            "I am the eternal Self experiencing itself",
+            "Divine light flows through me and guides my path"
+        ])
         protocol['recommended_frequencies'].append('Solfeggio 432 Hz')
-        protocol['ai_insights'].append("Spiritual growth path - universal frequencies align with cosmic harmony")
+        protocol['ai_insights'].append("🕉️ Spiritual growth: Universal frequencies align with Brahman consciousness")
 
-    # AI-generated quantum manifestation protocol
+    # Add spiritual affirmations from guidance
+    protocol['custom_affirmations'].extend(spiritual_guidance['affirmation_sequence'])
+
+    # AI-generated quantum manifestation protocol with spiritual enhancement
     protocol['quantum_manifestation'] = enlightenment_ai.generate_quantum_manifestation_protocol(
         profile['main_goals'], profile['experience_level']
     )
 
-    # Weekly goals based on experience and AI patterns
+    # Enhanced weekly goals with spiritual progression
     if profile['experience_level'] == 'Beginner':
         protocol['weekly_goals'] = [
             f"Complete {max(3, int(ai_patterns['consistency_score'] * 7))} daily sessions",
             "Try 3 different breathing techniques",
-            f"Listen to frequencies for {int(ai_patterns['avg_duration'] * 3)} minutes total"
+            f"Listen to frequencies for {int(ai_patterns['avg_duration'] * 3)} minutes total",
+            f"Practice {spiritual_guidance['sacred_practice']} daily",
+            f"Chant {spiritual_guidance['mantra_recommendation']} during meditation"
         ]
     elif profile['experience_level'] == 'Intermediate':
         protocol['weekly_goals'] = [
             f"Complete {max(5, int(ai_patterns['consistency_score'] * 7))} daily sessions",
             "Master 5 breathing techniques",
-            f"Meditate for {int(ai_patterns['avg_duration'] * 5)} minutes total"
+            f"Meditate for {int(ai_patterns['avg_duration'] * 5)} minutes total",
+            f"Deepen {spiritual_guidance['wisdom_tradition']} practice",
+            f"Align with {ai_patterns['cosmic_phase']} energy for manifestation"
         ]
     else:
         protocol['weekly_goals'] = [
             f"Complete {max(7, int(ai_patterns['consistency_score'] * 7))} daily sessions",
             "Integrate all practices seamlessly",
-            f"Achieve coherence states for {int(ai_patterns['avg_duration'] * 7)} minutes total"
+            f"Achieve coherence states for {int(ai_patterns['avg_duration'] * 7)} minutes total",
+            f"Follow your liberation path: {', '.join(spiritual_guidance['liberation_path'][:2])}",
+            f"Master {spiritual_guidance['wisdom_tradition']} teachings"
         ]
 
     st.session_state.user_profile['personalized_protocol'] = protocol
@@ -361,52 +833,319 @@ def get_personalized_recommendation() -> str:
     
     return "**Keep going!** Every session brings you closer to enlightenment. Check your progress in the Profile tab."
 
-# Custom CSS for enhanced UI
+# Enhanced Spiritual CSS for Enlightenment
 st.markdown("""
 <style>
+/* Cosmic Background with Sacred Geometry */
 body {
-    background: #000000;
-    background-image: 
-        linear-gradient(rgba(0, 255, 255, 0.1) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(0, 255, 255, 0.1) 1px, transparent 1px),
-        url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'); /* Blueprint overlay */
-    background-size: 50px 50px, 50px 50px, cover;
-    background-blend-mode: overlay;
-    color: #fff;
-    font-family: 'Chakra Petch', sans-serif;
-    font-size: 20px;
-    line-height: 1.6;
-}
-.stApp {
-    background: inherit;
-}
-.stButton>button {
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
-    color: white;
-    border: none;
-    border-radius: 25px;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    transition: transform 0.2s;
-}
-.stButton>button:hover {
-    transform: scale(1.05);
-}
-.stTextInput, .stSelectbox {
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 15px;
-    color: #333;
-    font-weight: bold;
+    background:
+        radial-gradient(circle at 20% 50%, rgba(255, 107, 107, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 50%, rgba(78, 205, 196, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 40% 20%, rgba(255, 255, 107, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 60% 80%, rgba(0, 255, 255, 0.1) 0%, transparent 50%),
+        linear-gradient(45deg,
+            rgba(0, 0, 0, 0.9) 0%,
+            rgba(20, 20, 40, 0.95) 25%,
+            rgba(40, 20, 60, 0.9) 50%,
+            rgba(20, 40, 80, 0.95) 75%,
+            rgba(0, 0, 0, 0.9) 100%);
+    background-size: 100px 100px, 150px 150px, 200px 200px, 120px 120px, cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: 'Cinzel', 'Times New Roman', serif;
     font-size: 18px;
-    padding: 15px;
-    border: 2px solid #00ffff;
+    line-height: 1.8;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    position: relative;
+    overflow-x: hidden;
 }
+
+/* Sacred Geometry Overlay */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:
+        radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        radial-gradient(circle at 75% 25%, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        radial-gradient(circle at 25% 75%, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        radial-gradient(circle at 75% 75%, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 100px 100px;
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* Animated Sacred Symbols */
+@keyframes sacredFlow {
+    0% { transform: rotate(0deg) scale(1); opacity: 0.1; }
+    25% { transform: rotate(90deg) scale(1.1); opacity: 0.2; }
+    50% { transform: rotate(180deg) scale(0.9); opacity: 0.15; }
+    75% { transform: rotate(270deg) scale(1.05); opacity: 0.25; }
+    100% { transform: rotate(360deg) scale(1); opacity: 0.1; }
+}
+
+.sacred-symbol {
+    position: fixed;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.1);
+    animation: sacredFlow 20s infinite linear;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.sacred-symbol:nth-child(1) { top: 10%; left: 10%; animation-delay: 0s; }
+.sacred-symbol:nth-child(2) { top: 20%; right: 15%; animation-delay: 5s; }
+.sacred-symbol:nth-child(3) { bottom: 15%; left: 20%; animation-delay: 10s; }
+.sacred-symbol:nth-child(4) { bottom: 25%; right: 10%; animation-delay: 15s; }
+
+.stApp {
+    background: transparent !important;
+}
+
+/* Enhanced Button Design with Spiritual Energy */
+.stButton>button {
+    background: linear-gradient(45deg,
+        rgba(255, 107, 107, 0.8),
+        rgba(78, 205, 196, 0.8),
+        rgba(255, 255, 107, 0.8),
+        rgba(0, 255, 255, 0.8));
+    background-size: 400% 400%;
+    animation: spiritualGlow 3s ease-in-out infinite;
+    color: #ffffff !important;
+    border: 2px solid rgba(255, 255, 255, 0.3) !important;
+    border-radius: 25px !important;
+    padding: 12px 24px !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    font-family: 'Cinzel', serif !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2) !important;
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.stButton>button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+.stButton>button:hover::before {
+    left: 100%;
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px) scale(1.05) !important;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.4) !important;
+    animation-duration: 1s !important;
+}
+
+@keyframes spiritualGlow {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+/* Enhanced Input Fields with Mystical Aura */
+.stTextInput input, .stSelectbox select, .stNumberInput input {
+    background: rgba(0, 0, 0, 0.7) !important;
+    border: 2px solid rgba(255, 255, 255, 0.3) !important;
+    border-radius: 15px !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    padding: 15px !important;
+    font-family: 'Cinzel', serif !important;
+    transition: all 0.3s ease !important;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5) !important;
+}
+
+.stTextInput input:focus, .stSelectbox select:focus, .stNumberInput input:focus {
+    border-color: rgba(78, 205, 196, 0.8) !important;
+    box-shadow: 0 0 20px rgba(78, 205, 196, 0.4), inset 0 0 10px rgba(0, 0, 0, 0.5) !important;
+    transform: scale(1.02);
+}
+
+/* Spiritual Expander Design */
 .expander {
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    margin: 10px 0;
+    background: linear-gradient(135deg,
+        rgba(0, 0, 0, 0.8),
+        rgba(20, 20, 40, 0.7),
+        rgba(40, 20, 60, 0.8)) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 15px !important;
+    margin: 15px 0 !important;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(10px) !important;
 }
+
+.expander:hover {
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.1) !important;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+/* Enhanced Headers with Spiritual Typography */
+.stHeader, .stSubheader {
+    background: linear-gradient(45deg,
+        #ff6b6b, #4ecdc4, #ffff6b, #00ffff,
+        #ff6b6b, #4ecdc4, #ffff6b, #00ffff);
+    background-size: 400% 400%;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text;
+    animation: spiritualGlow 4s ease-in-out infinite;
+    text-align: center !important;
+    font-weight: bold !important;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.3) !important;
+    margin: 20px 0 !important;
+    padding: 10px !important;
+}
+
+.stHeader {
+    font-size: 32px !important;
+    letter-spacing: 2px !important;
+}
+
+.stSubheader {
+    font-size: 24px !important;
+    letter-spacing: 1px !important;
+}
+
+/* Tab Design with Spiritual Essence */
+.tab {
+    background: linear-gradient(135deg,
+        rgba(255, 107, 107, 0.1),
+        rgba(78, 205, 196, 0.1),
+        rgba(255, 255, 107, 0.1)) !important;
+    padding: 15px !important;
+    border-radius: 15px !important;
+    margin: 5px !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    transition: all 0.3s ease !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+.tab:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Progress Bar Enhancement */
+.stProgress > div > div {
+    background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #ffff6b, #00ffff) !important;
+    border-radius: 10px !important;
+}
+
+/* Enhanced Metric Cards */
+.metric-card {
+    background: linear-gradient(135deg,
+        rgba(0, 0, 0, 0.8),
+        rgba(20, 20, 40, 0.7)) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 15px !important;
+    padding: 20px !important;
+    margin: 10px !important;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(10px) !important;
+    text-align: center !important;
+}
+
+/* Spiritual Animations */
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.spiritual-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+.spiritual-pulse {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.spiritual-rotate {
+    animation: rotate 20s linear infinite;
+}
+
+/* Mobile Responsiveness with Spiritual Touch */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px !important;
+    }
+
+    .stButton>button {
+        padding: 10px 20px !important;
+        font-size: 14px !important;
+    }
+
+    .stTextInput input, .stSelectbox select, .stNumberInput input {
+        font-size: 14px !important;
+        padding: 12px !important;
+    }
+
+    .stHeader {
+        font-size: 24px !important;
+    }
+
+    .stSubheader {
+        font-size: 18px !important;
+    }
+}
+
+/* Success/Warning/Info Messages */
+.stSuccess, .stWarning, .stInfo {
+    background: linear-gradient(135deg,
+        rgba(0, 0, 0, 0.9),
+        rgba(20, 20, 40, 0.8)) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    border-radius: 10px !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5) !important;
+}
+
+.stSuccess {
+    border-left: 4px solid #4ecdc4 !important;
+}
+
+.stWarning {
+    border-left: 4px solid #ffff6b !important;
+}
+
+.stInfo {
+    border-left: 4px solid #00ffff !important;
+}
+</style>
+
+<!-- Sacred Symbols Overlay -->
+<div class="sacred-symbol">ॐ</div>
+<div class="sacred-symbol">☥</div>
+<div class="sacred-symbol">✡️</div>
+<div class="sacred-symbol">☯</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<style>
 .bold-text {
     font-weight: bold;
     font-size: 24px;
@@ -482,17 +1221,49 @@ def generate_ai_response(query):
         return "**Sound Therapy:** Alpha for relaxation, Gamma for insight, Solfeggio for healing. Use during practices. Scientific: Brainwave entrainment."
     elif "quantum" in query_lower or "manifestation" in query_lower:
         return "**Quantum Manifestation:** Set intentions, use coherent speech, visualize outcomes. Quantum: Wave function collapse. Practice gratitude. See Quantum Manifestation tab."
-    elif "astral" in query_lower or "projection" in query_lower:
-        return "**Astral Projection:** Relax, visualize silver cord, project consciousness. Access healing blueprints. Non-physical dimensions. See Non-Physical Realms tab."
-    elif "grounding" in query_lower or "earthing" in query_lower:
-        return "**Grounding:** Walk barefoot, use mats. Reduces inflammation via electron transfer. Biological harmony. See Grounding & Biology tab."
-    elif "coherent speech" in query_lower or "words" in query_lower:
-        return "**Coherent Speech:** Speak affirmations with intention. Influences molecules via vibration. Harmony in manifestation. Practice daily."
+    elif "energy" in query_lower or "field" in query_lower:
+        return f"{greeting}**Energy Fields Mastery:** Quantum fields permeate everything. Practice field coherence meditation: visualize golden threads connecting all particles. Align with Schumann resonance (7.83 Hz). Scientific: Zero-point energy contains infinite potential. HeartMath studies show coherent fields affect DNA expression.{experience_modifier}{goal_modifier}"
+    elif "dimensional" in query_lower or "astral" in query_lower:
+        return f"{greeting}**Dimensional Navigation:** Astral projection starts with relaxation and silver cord visualization. Lucid dreaming through reality checks. Shamanic journeying with drumming. Merkaba activation for light body ascension. Access higher wisdom through altered states.{experience_modifier}{goal_modifier}"
+    elif "frequency" in query_lower or "vibration" in query_lower:
+        return f"{greeting}**Frequency Science:** Solfeggio scales (396-963 Hz) for healing. Binaural beats for brainwave entrainment. Schumann resonance (7.83 Hz) for grounding. Use during meditation for enhanced coherence. Scientific: Brainwave entrainment proven in studies.{experience_modifier}{goal_modifier}"
+    elif "akashic" in query_lower or "records" in query_lower:
+        return f"{greeting}**Akashic Access:** Enter theta state, visualize golden library. Ask clear questions to Akashic Keepers. Receive through intuition or visions. Access soul history for healing and wisdom. Enhanced with binaural beats at 4-7 Hz.{experience_modifier}{goal_modifier}"
+    elif "cosmic" in query_lower or "universal" in query_lower or "expansion" in query_lower:
+        return f"{greeting}**Cosmic Expansion:** Merkaba activation with counter-rotating tetrahedrons. Light body ascension through kundalini. Unity consciousness through interconnectedness meditation. Expand beyond physical limits into universal awareness.{experience_modifier}{goal_modifier}"
+    elif "source" in query_lower or "divine" in query_lower or "connection" in query_lower:
+        return f"{greeting}**Source Connection:** Practice constant remembrance through dhikr or mantra. Self-inquiry 'Who am I?' for realization. Devotional practices for divine union. Maintain resonant connection throughout day. Scientific: Gamma synchrony correlates with unity states.{experience_modifier}{goal_modifier}"
+    elif "wisdom" in query_lower or "tradition" in query_lower or "historical" in query_lower:
+        return f"{greight}**Spiritual Wisdom:** Vedas teach Brahman-Atman unity. Buddhism offers Eightfold Path. Taoism emphasizes Wu Wei. Sufism focuses on divine love. Kabbalah maps divine emanations. Integrate across traditions for complete enlightenment.{experience_modifier}{goal_modifier}"
+    elif "scientific" in query_lower or "studies" in query_lower:
+        return f"{greeting}**Scientific Studies:** Global Consciousness Project shows collective effects. HeartMath measures coherent fields (up to 8 feet radius). Neuroscience reveals meditation brain changes (Lutz et al., 2004). Quantum physics demonstrates entanglement and observer effect.{experience_modifier}{goal_modifier}"
+    elif "liberation" in query_lower or "enlightenment" in query_lower:
+        return f"{greeting}**Liberation Protocols:** Step-by-step: Foundation (4 weeks), Expansion (4 weeks), Transcendence (4 weeks), Enlightenment (ongoing). Frequency riding with binaural beats. Coherent existence through integrated practice. Scientific validation through flow states research.{experience_modifier}{goal_modifier}"
+    elif "coherence" in query_lower or "harmony" in query_lower:
+        return f"{greeting}**Coherence & Harmony:** Align all levels - physical, emotional, mental, spiritual. Daily coherence meditation. HeartMath techniques for emotional harmony. Merkaba for dimensional integration. Achieve complete harmony in existence.{experience_modifier}{goal_modifier}"
+    elif "merkaba" in query_lower or "light body" in query_lower:
+        return f"{greeting}**Merkaba Activation:** Visualize interlocking tetrahedrons (electric counter-clockwise, magnetic clockwise). Expand to universal scale for dimensional navigation. Ancient Kabbalistic practice with modern consciousness expansion applications.{experience_modifier}{goal_modifier}"
+    elif "solfeggio" in query_lower:
+        return f"{greeting}**Solfeggio Frequencies:** 396 Hz (fear release), 417 Hz (change), 528 Hz (DNA repair), 639 Hz (relationships), 741 Hz (intuition), 852 Hz (spiritual order), 963 Hz (divine oneness). Tone during meditation for chakra healing.{experience_modifier}{goal_modifier}"
+    elif "binaural" in query_lower or "beats" in query_lower:
+        return f"{greeting}**Binaural Beats:** Delta (0.5-4 Hz) for healing, Theta (4-8 Hz) for intuition, Alpha (8-12 Hz) for relaxation, Beta (12-30 Hz) for focus, Gamma (30-100 Hz) for insight. Use headphones for brainwave entrainment.{experience_modifier}{goal_modifier}"
+    elif "schumann" in query_lower or "resonance" in query_lower:
+        return f"{greeting}**Schumann Resonance:** Earth's fundamental frequency (7.83 Hz) with harmonics. Aligns with alpha/theta states for grounding and coherence. Scientific studies show biological effects on human health.{experience_modifier}{goal_modifier}"
+    elif "quantum" in query_lower and "field" in query_lower:
+        return f"{greeting}**Quantum Fields:** Body generates coherent electromagnetic fields. Heart field 5,000x stronger than brain. Zero-point energy access through void meditation. Scientific: Penrose-Hameroff theory links to consciousness.{experience_modifier}{goal_modifier}"
+    elif "morphogenetic" in query_lower:
+        return f"{greeting}**Morphogenetic Fields:** Rupert Sheldrake's theory of collective resonance. Sacred geometry structures personal fields. Practice daily field expansion for enhanced manifestation and telepathy.{experience_modifier}{goal_modifier}"
+    elif "shamanic" in query_lower or "journey" in query_lower:
+        return f"{greeting}**Shamanic Journeying:** Indigenous practices worldwide. Use drumming (4-7 Hz) for altered states. Journey to lower world (power animals), upper world (guides), middle world (healing). 15-20 minute sessions.{experience_modifier}{goal_modifier}"
+    elif "unity" in query_lower or "consciousness" in query_lower:
+        return f"{greeting}**Unity Consciousness:** Experience Brahman-Atman identity. Quantum entanglement demonstrates non-local connection. Practice 'I am' meditations and interconnectedness visualization.{experience_modifier}{goal_modifier}"
+    elif "remembrance" in query_lower or "dhikr" in query_lower:
+        return f"{greeting}**Divine Remembrance:** Sufi practice of repeating sacred phrases. Maintain 'God consciousness' throughout day. Integrate with activities for constant source connection.{experience_modifier}{goal_modifier}"
     else:
         return "**General Guidance:** Explore tabs based on your goals. For personalized plans, enter purpose on Home tab. Ask specific questions for tailored advice!"
 
 # Tabs for organization
-tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10, tab11, tab12, tab13 = st.tabs(["🏠 Home", "🧘 Practices", "🎵 Sound Therapy", "🌄 Landscapes", "🔮 Chakras & Kundalini", "⚛️ Quantum Manifestation", "🌌 Non-Physical Realms", "🌍 Grounding & Biology", "📚 Knowledge", "🤖 AI Guide", "👤 Profile & Progress", "🌟 Quantum Reality Engine", "🎥 Video Learning Center"])
+tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10, tab11, tab12, tab13, tab14, tab15, tab16, tab17, tab18, tab19, tab20 = st.tabs(["🏠 Home", "🧘 Practices", "🎵 Sound Therapy", "🌄 Landscapes", "🔮 Chakras & Kundalini", "⚛️ Quantum Manifestation", "🌌 Non-Physical Realms", "🌍 Grounding & Biology", "📚 Knowledge", "🤖 AI Guide", "👤 Profile & Progress", "🌟 Quantum Reality Engine", "🎥 Video Learning Center", "⚡ Energy Fields", "🌌 Dimensional Navigation", "🎵 Frequency Science", "📖 Akashic Records", "🌌 Cosmic Expansion", "🔗 Source Connection", "📜 Spiritual Wisdom"])
 
 with tab1:
     # Home Tab
@@ -893,7 +1664,7 @@ with tab10:
 
 with tab11:
     # Profile & Progress Tab
-    st.header("**👤 YOUR PERSONAL ENLIGHTENMENT PROFILE**")
+    st.header("**👤 YOUR PERSONAL ENLIGHTENMENT PROFILE & SPIRITUAL PROGRESS**")
     
     # Profile Setup Section
     with st.expander("**⚙️ SETUP YOUR PROFILE**", expanded=not st.session_state.user_profile.get('name')):
@@ -918,9 +1689,9 @@ with tab11:
     
     # Progress Dashboard
     if st.session_state.user_profile.get('name'):
-        st.subheader(f"**Welcome back, {st.session_state.user_profile['name']}!**")
+        st.subheader(f"**Welcome back, {st.session_state.user_profile['name']}!** 🌟")
         
-        # Stats Overview
+        # Enhanced Spiritual Stats Overview
         col1, col2, col3, col4 = st.columns(4)
         with col1:
             st.metric("**Total Sessions**", st.session_state.user_profile['total_sessions'])
@@ -931,68 +1702,111 @@ with tab11:
         with col4:
             st.metric("**Achievements**", len(st.session_state.user_profile['achievements']))
         
+        # AI Spiritual Analysis Display
+        if st.session_state.user_profile.get('personalized_protocol'):
+            protocol = st.session_state.user_profile['personalized_protocol']
+            
+            # Spiritual Profile Summary
+            st.subheader("**🌟 YOUR SPIRITUAL PROFILE**")
+            spiritual_cols = st.columns(4)
+            with spiritual_cols[0]:
+                st.info(f"**Wisdom Level:** {protocol.get('wisdom_level', 'aspirant').title()}")
+            with spiritual_cols[1]:
+                st.info(f"**Element:** {protocol.get('elemental_alignment', 'earth').title()}")
+            with spiritual_cols[2]:
+                st.info(f"**Cosmic Phase:** {protocol.get('cosmic_phase', 'neutral').replace('_', ' ').title()}")
+            with spiritual_cols[3]:
+                coherence_score = enlightenment_ai.calculate_quantum_coherence_score(st.session_state.user_profile['session_history'])
+                st.info(f"**Coherence:** {coherence_score:.1%}")
+            
+            # Deep Spiritual Guidance
+            with st.expander("**🕉️ DEEP SPIRITUAL GUIDANCE**", expanded=True):
+                spiritual_guidance = protocol.get('spiritual_guidance', {})
+                
+                st.markdown(f"**Wisdom Tradition:** {spiritual_guidance.get('wisdom_tradition', 'General Spiritual Practice')}")
+                st.markdown(f"**Sacred Practice:** {spiritual_guidance.get('sacred_practice', 'Daily meditation and breathing')}")
+                st.markdown(f"**Mantra:** {spiritual_guidance.get('mantra_recommendation', 'OM')}")
+                st.markdown(f"**Energy Alignment:** {spiritual_guidance.get('energy_alignment', 'Align with your natural rhythm')}")
+                
+                if spiritual_guidance.get('liberation_path'):
+                    st.markdown("**Your Liberation Path:**")
+                    for i, step in enumerate(spiritual_guidance['liberation_path'], 1):
+                        st.write(f"**{i}.** {step}")
+                
+                if spiritual_guidance.get('affirmation_sequence'):
+                    st.markdown("**Daily Spiritual Affirmations:**")
+                    for affirmation in spiritual_guidance['affirmation_sequence']:
+                        st.write(f"• *{affirmation}*")
+        
         # Personalized Recommendation
         st.info(f"**💡 {get_personalized_recommendation()}**")
+        
+        # Enhanced AI Insights
+        if st.session_state.user_profile.get('personalized_protocol'):
+            protocol = st.session_state.user_profile['personalized_protocol']
+            with st.expander("**🤖 AI SPIRITUAL INSIGHTS**"):
+                for insight in protocol.get('ai_insights', []):
+                    st.write(f"• {insight}")
         
         # Your Personalized Protocol
         if st.session_state.user_profile.get('personalized_protocol'):
             protocol = st.session_state.user_profile['personalized_protocol']
             
-            with st.expander("**📋 YOUR PERSONALIZED PROTOCOL**"):
+            with st.expander("**📋 YOUR PERSONALIZED ENLIGHTENMENT PROTOCOL**"):
                 st.write(f"**Experience Level:** {st.session_state.user_profile['experience_level']}")
                 st.write(f"**Main Goals:** {', '.join(st.session_state.user_profile['main_goals'])}")
                 
-                st.subheader("**Daily Routine**")
+                st.subheader("**🕉️ Daily Spiritual Routine**")
                 for i, step in enumerate(protocol['daily_routine'], 1):
                     st.write(f"**{i}. {step}**")
                 
-                st.subheader("**Weekly Goals**")
+                st.subheader("**🌟 Weekly Spiritual Goals**")
                 for goal in protocol['weekly_goals']:
                     st.write(f"• {goal}")
                 
-                st.subheader("**Recommended Frequencies**")
+                st.subheader("**🎵 Recommended Sacred Frequencies**")
                 for freq in protocol['recommended_frequencies']:
                     st.write(f"• {freq}")
                 
                 if protocol['custom_affirmations']:
-                    st.subheader("**Your Custom Affirmations**")
+                    st.subheader("**🙏 Your Sacred Affirmations**")
                     for affirmation in protocol['custom_affirmations']:
-                        st.write(f"• {affirmation}")
+                        st.write(f"• *{affirmation}*")
         
-        # Achievements
+        # Achievements with Spiritual Context
         if st.session_state.user_profile['achievements']:
-            with st.expander("**🏆 YOUR ACHIEVEMENTS**"):
+            with st.expander("**🏆 YOUR SPIRITUAL ACHIEVEMENTS**"):
                 for achievement in st.session_state.user_profile['achievements']:
                     st.write(f"**✨ {achievement}**")
         
-        # Session History
+        # Session History with Spiritual Reflection
         if st.session_state.user_profile['session_history']:
-            with st.expander("**📊 SESSION HISTORY**"):
+            with st.expander("**📊 SESSION HISTORY & SPIRITUAL JOURNEY**"):
                 recent_sessions = st.session_state.user_profile['session_history'][-10:]  # Last 10
                 
                 for session in reversed(recent_sessions):
                     date = datetime.datetime.fromisoformat(session['date']).strftime("%Y-%m-%d %H:%M")
                     st.write(f"**{date}** - {session['practice_type']} ({session['duration']} min)")
                     if session.get('notes'):
-                        st.write(f"  *Notes: {session['notes']}*")
+                        st.write(f"  *Spiritual Notes: {session['notes']}*")
         
-        # Quick Session Logger
-        st.subheader("**⏱️ LOG A SESSION**")
+        # Quick Session Logger with Spiritual Context
+        st.subheader("**⏱️ LOG A SACRED SESSION**")
         col1, col2 = st.columns(2)
         with col1:
-            practice_type = st.selectbox("**Practice Type**", 
-                                       ["Breathing Exercise", "Meditation", "Sound Therapy", "Visualization", "Energy Work", "Movement", "Other"])
+            practice_type = st.selectbox("**Sacred Practice Type**", 
+                                       ["Breathing Exercise", "Meditation", "Sound Therapy", "Visualization", "Energy Work", "Movement", "Chakra Work", "Mantra Chanting", "Other"])
             duration = st.number_input("**Duration (minutes)**", min_value=1, max_value=180, value=10)
         with col2:
-            notes = st.text_area("**Notes (optional)**", height=100, placeholder="How did it feel? Any insights?")
+            notes = st.text_area("**Spiritual Reflections**", height=100, placeholder="What insights arose? How did you feel the divine presence? Any energy sensations?")
         
-        if st.button("**Log Session**"):
+        if st.button("**Log Sacred Session**"):
             log_session(practice_type, duration, notes)
-            st.success(f"**Session logged!** +{duration} minutes to your journey.")
+            st.success(f"**Sacred session logged!** +{duration} minutes to your spiritual journey.")
             st.rerun()
     
     else:
-        st.info("**Set up your profile above to unlock personalized features, progress tracking, and achievements!**")
+        st.info("**Set up your profile above to unlock personalized spiritual guidance, progress tracking, and enlightenment achievements!**")
 
 # Advanced Quantum CGI Visualization
 st.subheader("**🌌 QUANTUM ENERGY FIELD SIMULATION & INTERACTIVE CGI**")
@@ -1726,5 +2540,594 @@ with tab13:
 
     else:
         st.info("**🎥 More video categories coming soon! Each category includes interactive CGI demonstrations, step-by-step AI guidance, and comprehensive explanations of ancient wisdom combined with modern science.**")
+
+with tab14:
+    # Energy Fields Tab
+    st.header("**⚡ NON-PHYSICAL & PHYSICAL ENERGY FIELDS**")
+    st.markdown("**Research on coherent energy field creation across all dimensions and densities.**")
+    
+    st.subheader("**Quantum Field Theory & Morphogenetic Fields**")
+    st.markdown("""
+    **Quantum Fields:** The universe consists of quantum fields that permeate all space. Consciousness interacts with these fields through coherent states.
+    
+    **Morphogenetic Fields:** Rupert Sheldrake's theory of fields that carry information across space and time, influencing form and behavior.
+    
+    **Zero-Point Energy:** The lowest possible energy state of a quantum system, containing infinite potential energy.
+    
+    **Protocols:**
+    1. **Field Coherence Meditation:** Visualize golden threads connecting all particles in your body.
+    2. **Quantum Breathing:** Inhale potential, exhale manifestation.
+    3. **Field Alignment:** Align personal field with Earth's Schumann resonance (7.83 Hz).
+    """)
+    
+    st.subheader("**Spiritual Energy Systems**")
+    st.markdown("""
+    **Prana/Ki/Chi:** Life force energy flowing through nadis/meridians/chakras.
+    
+    **Aura Fields:** Electromagnetic fields extending from the body, influenced by emotions and thoughts.
+    
+    **Merkaba:** Counter-rotating fields of light for dimensional travel.
+    
+    **Scientific Studies:** HeartMath Institute research shows coherent heart fields influence DNA expression.
+    """)
+
+with tab15:
+    # Dimensional Navigation Tab
+    st.header("**🌌 DIMENSIONAL NAVIGATION**")
+    st.markdown("**Protocols for accessing and navigating different dimensions and densities.**")
+    
+    st.subheader("**Astral Projection Techniques**")
+    st.markdown("""
+    **Wake Back to Bed (WBTB):** Wake after 4-6 hours sleep, stay awake 20-30 min, return to bed.
+    
+    **Visualization Method:** Lie down, relax body progressively, visualize rising out of physical body.
+    
+    **Silver Cord:** Maintain connection to physical body during astral travel.
+    """)
+    
+    st.subheader("**Lucid Dreaming**")
+    st.markdown("""
+    **Reality Checks:** Question reality throughout day (e.g., 'Am I dreaming?').
+    
+    **MILD Technique:** As you fall asleep, repeat 'I will realize I'm dreaming'.
+    
+    **Dream Journaling:** Record dreams immediately upon waking to increase lucidity.
+    """)
+    
+    st.subheader("**Shamanic Journeying**")
+    st.markdown("""
+    **Drumming:** Use 4-7 Hz theta rhythm drumming for 15-20 minutes.
+    
+    **Power Animal Retrieval:** Journey to lower world to meet spirit guides.
+    
+    **Upper World Journeys:** Access higher wisdom through crown chakra.
+    """)
+
+with tab16:
+    # Frequency Science Tab
+    st.header("**🎵 FREQUENCY & VIBRATION SCIENCE**")
+    st.markdown("**Comprehensive research on frequencies for consciousness expansion.**")
+    
+    st.subheader("**Solfeggio Scales**")
+    st.markdown("""
+    - **396 Hz:** Liberating guilt and fear (UT)
+    - **417 Hz:** Undoing situations and facilitating change (RE)
+    - **528 Hz:** Transformation and miracles, DNA repair (MI)
+    - **639 Hz:** Connecting relationships (FA)
+    - **741 Hz:** Awakening intuition (SOL)
+    - **852 Hz:** Returning to spiritual order (LA)
+    - **963 Hz:** Oneness with the divine (TI)
+    """)
+    
+    st.subheader("**Binaural Beats**")
+    st.markdown("""
+    **Delta (0.5-4 Hz):** Deep sleep, healing
+    **Theta (4-8 Hz):** Meditation, intuition
+    **Alpha (8-12 Hz):** Relaxation, creativity
+    **Beta (13-30 Hz):** Focus, alertness
+    **Gamma (30-100 Hz):** Insight, cognitive enhancement
+    """)
+    
+    st.subheader("**Schumann Resonance & Cosmic Harmonics**")
+    st.markdown("""
+    **7.83 Hz:** Earth's fundamental frequency, grounding
+    **432 Hz:** Universal healing frequency
+    **528 Hz:** Love frequency, DNA activation
+    **Cosmic Octave:** Frequencies from planetary orbits and sacred geometry
+    """)
+
+with tab17:
+    # Akashic Records Tab
+    st.header("**📖 AKASHIC RECORDS ACCESS**")
+    st.markdown("**Methods for accessing the Akashic records through meditation and altered states.**")
+    
+    st.subheader("**Meditation Protocols**")
+    st.markdown("""
+    **Pathworking Meditation:**
+    1. Enter deep relaxation state
+    2. Visualize golden library in higher dimensions
+    3. Ask clear questions to the Akashic Keepers
+    4. Receive information through intuition, visions, or direct knowing
+    
+    **Chakra Activation:** Open third eye and crown chakras for access
+    """)
+    
+    st.subheader("**Visualization Techniques**")
+    st.markdown("""
+    **Hall of Records:** Imagine vast hall with infinite books containing all soul experiences.
+    
+    **Crystal Cave:** Enter crystal cave where records are stored in crystalline matrices.
+    
+    **Sacred Geometry:** Use Flower of Life pattern to access multidimensional records.
+    """)
+    
+    st.subheader("**Altered States Methods**")
+    st.markdown("""
+    **Holotropic Breathwork:** Rapid breathing to access non-ordinary states
+    **Ayahuasca Ceremony:** Plant medicine for direct access (traditional contexts)
+    **Sleep Paralysis:** Natural state between sleep and wakefulness
+    """)
+
+with tab18:
+    # Cosmic Expansion Tab
+    st.header("**🌌 UNIVERSAL & COSMIC EXPANSION**")
+    st.markdown("**Techniques for expanding consciousness beyond physical awareness.**")
+    
+    st.subheader("**Merkaba Activation**")
+    st.markdown("""
+    **Merkaba Meditation:**
+    1. Visualize tetrahedrons above and below body
+    2. Spin counter-clockwise (electric) and clockwise (magnetic)
+    3. Balance masculine/feminine energies
+    4. Expand field to encompass universe
+    
+    **Benefits:** Dimensional travel, healing, enlightenment
+    """)
+    
+    st.subheader("**Light Body Ascension**")
+    st.markdown("""
+    **Kundalini Rising:** Activate serpent energy from root to crown
+    **Christ Consciousness:** Embody unconditional love and unity
+    **Rainbow Body:** Tibetan practice of complete transformation
+    
+    **Protocols:** Daily chakra clearing, breathwork, intention setting
+    """)
+    
+    st.subheader("**Unity Consciousness Practices**")
+    st.markdown("""
+    **Oneness Meditation:** Feel connection to all beings
+    **Cosmic Christ Meditation:** Channel universal love
+    **Buddha Nature Realization:** Recognize inherent enlightenment
+    
+    **Scientific Correlation:** Quantum entanglement demonstrates interconnectedness
+    """)
+
+with tab19:
+    # Source Connection Tab
+    st.header("**🔗 SOURCE CONNECTION**")
+    st.markdown("**Methods for establishing constant resonant connection to the divine source.**")
+    
+    st.subheader("**Meditation Techniques**")
+    st.markdown("""
+    **Source Light Meditation:**
+    1. Sit in silence, focus on heart center
+    2. Visualize golden cord connecting to infinite source
+    3. Breathe in divine light, exhale gratitude
+    4. Maintain connection throughout day
+    
+    **Jnana Yoga:** Self-inquiry 'Who am I?' to realize true nature
+    """)
+    
+    st.subheader("**Prayer & Devotion**")
+    st.markdown("""
+    **Bhakti Yoga:** Devotional practices to merge with divine
+    **Sufi Zikr:** Repetition of divine names for remembrance
+    **Christian Centering Prayer:** Silent prayer for divine presence
+    
+    **Mantras:** OM, Allah Hu, Kyrie Eleison
+    """)
+    
+    st.subheader("**Energy Practices**")
+    st.markdown("""
+    **Shaktipat:** Transmission of spiritual energy from guru
+    **Kriya Yoga:** Techniques for kundalini awakening and source connection
+    **Taoist Inner Alchemy:** Circulate energy to merge with Tao
+    
+    **Scientific:** Studies show meditation increases gamma synchrony, correlating with unity experiences
+    """)
+
+with tab20:
+    # Spiritual Wisdom Tab
+    st.header("**📜 HISTORICAL SPIRITUAL WISDOM**")
+    st.markdown("**Wisdom from major spiritual traditions for enlightenment.**")
+    
+    st.subheader("**Hinduism (Vedas, Upanishads)**")
+    st.markdown("""
+    **Key Teachings:**
+    - **Brahman:** Ultimate reality, pure consciousness
+    - **Atman:** Individual soul, identical with Brahman
+    - **Maya:** Illusion of separation
+    - **Karma Yoga:** Selfless action
+    - **Jnana Yoga:** Path of knowledge
+    
+    **Practices:** Vedanta philosophy, meditation on 'Aham Brahmasmi' (I am Brahman)
+    """)
+    
+    st.subheader("**Buddhism**")
+    st.markdown("""
+    **Theravada:** Noble Eightfold Path, Four Noble Truths
+    **Mahayana:** Bodhisattva path, emptiness (shunyata)
+    **Vajrayana:** Tantric practices, deity yoga
+    **Zen:** Direct transmission, koans, zazen
+    
+    **Core:** Suffering arises from attachment; enlightenment through mindfulness and wisdom
+    """)
+    
+    st.subheader("**Taoism**")
+    st.markdown("""
+    **Tao Te Ching:** The Tao that can be told is not the eternal Tao
+    **Wu Wei:** Non-action, effortless action
+    **Inner Alchemy:** Transformation of jing (essence) to qi to shen (spirit)
+    
+    **Practices:** Tai Chi, meditation, harmonizing with natural flow
+    """)
+    
+    st.subheader("**Other Traditions**")
+    st.markdown("""
+    **Sufism:** Divine love, annihilation in God (fana)
+    **Kabbalah:** Tree of Life, sephiroth, divine emanations
+    **Hermeticism:** 'As above, so below', correspondence principle
+    **Native American:** Vision quests, sweat lodges, connection to Great Spirit
+    **Aboriginal:** Dreamtime, ancestral wisdom, songlines
+    """)
+
+with tab14:
+    # Energy Fields Tab
+    st.header("**⚡ ENERGY FIELDS & COHERENT SYSTEMS**")
+    st.markdown("**Master the creation and manipulation of coherent energy fields across all dimensions.**")
+
+    st.subheader("**Quantum Energy Fields**")
+    st.markdown("""
+    **Scientific Basis:** Body generates electromagnetic fields measurable at heart (5,000x stronger than brain).
+    **Coherent Energy Systems:** Practices like HeartMath coherence training create measurable field effects.
+    **Quantum Coherence in Biology:** Consciousness arises from quantum computations in neuronal microtubules (Penrose-Hameroff).
+    **Zero-Point Energy Access:** Enter deep meditation to tap the quantum vacuum for infinite potential.
+    """)
+
+    col1, col2 = st.columns(2)
+    with col1:
+        st.subheader("**Quantum Field Protocol**")
+        st.markdown("""
+        1. **Visualize** body as coherent quantum field
+        2. **Inhale** universal energy, exhale personal coherence
+        3. **Align** with Schumann resonance (7.83 Hz)
+        4. **Practice** daily for 15-20 minutes
+        """)
+
+    with col2:
+        st.subheader("**Field Effects**")
+        st.markdown("""
+        - **DNA Expression** influenced by coherent fields
+        - **Cellular Function** enhanced through harmony
+        - **Infinite Potential** accessed via zero-point energy
+        - **Measurable Results** through HeartMath studies
+        """)
+
+    st.subheader("**Morphogenetic Fields**")
+    st.markdown("""
+    **Collective Resonance:** Rupert Sheldrake's morphic fields explain collective evolution and telepathy.
+    **Sacred Geometry Structuring:** Use Flower of Life patterns to structure personal energy fields.
+    """)
+
+    if st.button("**🎯 Practice Quantum Field Coherence**"):
+        st.success("**Quantum Field Meditation Started!** Close your eyes and visualize golden threads connecting all particles in your body.")
+        if st.session_state.user_profile.get('name'):
+            log_session('Quantum Field Meditation', 15, 'Practiced coherent energy field visualization')
+
+with tab15:
+    # Dimensional Navigation Tab
+    st.header("**🌌 DIMENSIONAL NAVIGATION & CONSCIOUSNESS EXPANSION**")
+    st.markdown("**Navigate different dimensions and densities of existence with ancient and modern protocols.**")
+
+    st.subheader("**Astral Projection**")
+    st.markdown("""
+    **Ancient Wisdom:** Esoteric traditions (Hermeticism, Tibetan Buddhism) describe astral travel for knowledge access.
+    **Scientific Basis:** Altered states access subconscious or collective unconscious. EEG shows theta states during projection.
+    **Benefits:** Healing, expanded awareness, accessing higher wisdom.
+    """)
+
+    st.subheader("**Astral Projection Protocol**")
+    st.markdown("""
+    **Preparation (10 minutes):**
+    1. Lie down in quiet space, relax body progressively
+    2. Tense/release each muscle group from toes to head
+    3. Establish deep rhythmic breathing
+
+    **Projection (20-30 minutes):**
+    4. Visualize silver cord connecting physical/astral bodies
+    5. Use "roll-out" technique: imagine rolling out of body
+    6. Explore realms with intention
+    7. Return by willing it or following silver cord
+
+    **Integration:**
+    8. Journal experiences and insights
+    9. Ground with physical activity
+    """)
+
+    st.subheader("**Shamanic Journeying**")
+    st.markdown("""
+    **Historical References:** Indigenous practices worldwide, Amazonian ayahuasca, Siberian shamanism.
+    **Modern Integration:** Use drumming (4-7 Hz theta) for altered states.
+    **Duration:** 15-20 minutes.
+    """)
+
+    shaman_options = st.selectbox("**Choose Journey Type**", ["Lower World (Power Animals)", "Upper World (Spirit Guides)", "Middle World (Healing)"])
+    if st.button("**🪘 Begin Shamanic Journey**"):
+        if shaman_options == "Lower World (Power Animals)":
+            st.info("**Journey to Lower World:** Use rattling/drumming. Seek power animal for guidance and strength.")
+        elif shaman_options == "Upper World (Spirit Guides)":
+            st.info("**Journey to Upper World:** Find spirit guide for wisdom and higher perspective.")
+        else:
+            st.info("**Journey to Middle World:** Explore physical realm for healing and insight.")
+        if st.session_state.user_profile.get('name'):
+            log_session('Shamanic Journey', 20, f'Journeyed to {shaman_options}')
+
+    st.subheader("**Merkaba Activation**")
+    st.markdown("""
+    **Light Body Ascension:** Visualize interlocking tetrahedrons (electric counter-clockwise, magnetic clockwise).
+    **Expansion:** Expand field to universal scale for dimensional navigation.
+    **Reference:** Merkavah mysticism in Kabbalah.
+    """)
+
+    if st.button("**🔺 Activate Merkaba Field**"):
+        st.success("**Merkaba Activation Started!** Visualize counter-rotating tetrahedrons around your body, expanding to cosmic scale.")
+
+with tab16:
+    # Frequency Science Tab
+    st.header("**🎵 FREQUENCY SCIENCE & VIBRATIONAL MASTERY**")
+    st.markdown("**Master frequencies and vibrations for consciousness expansion and coherence.**")
+
+    st.subheader("**Solfeggio Healing Frequencies**")
+    solfeggio_data = {
+        "396 Hz": {"benefit": "Liberate fear, guilt", "note": "Ut", "chakra": "Root"},
+        "417 Hz": {"benefit": "Facilitate change, undo situations", "note": "Re", "chakra": "Sacral"},
+        "528 Hz": {"benefit": "Transformation, DNA repair", "note": "Mi", "chakra": "Solar Plexus"},
+        "639 Hz": {"benefit": "Harmonize relationships", "note": "Fa", "chakra": "Heart"},
+        "741 Hz": {"benefit": "Awaken intuition", "note": "Sol", "chakra": "Throat"},
+        "852 Hz": {"benefit": "Return to spiritual order", "note": "La", "chakra": "Third Eye"},
+        "963 Hz": {"benefit": "Oneness with divine", "note": "Si", "chakra": "Crown"}
+    }
+
+    for freq, data in solfeggio_data.items():
+        with st.expander(f"**{freq} - {data['benefit']}**"):
+            st.write(f"**Note:** {data['note']} | **Chakra:** {data['chakra']}")
+            st.write(f"**Benefits:** {data['benefit']}")
+            if st.button(f"**🎵 Tone {freq}**", key=freq):
+                st.audio("https://www.soundjay.com/misc/sounds/bell-ringing-05.wav", format="audio/wav")
+                st.success(f"**{freq} activated!** Feel the vibration resonating through your {data['chakra']} chakra.")
+
+    st.subheader("**Binaural Beats for Brainwave Entrainment**")
+    brainwaves = {
+        "Delta (0.5-4 Hz)": "Deep sleep, healing, regeneration",
+        "Theta (4-8 Hz)": "Meditation, intuition, creativity",
+        "Alpha (8-12 Hz)": "Relaxation, calm, stress reduction",
+        "Beta (12-30 Hz)": "Focus, alertness, concentration",
+        "Gamma (30-100 Hz)": "Insight, cognitive enhancement, peak awareness"
+    }
+
+    selected_wave = st.selectbox("**Select Brainwave State**", list(brainwaves.keys()))
+    st.write(f"**Benefits:** {brainwaves[selected_wave]}")
+
+    if st.button("**🎧 Generate Binaural Beat**"):
+        st.info(f"**{selected_wave} binaural beat activated!** Use headphones for optimal effect.")
+
+    st.subheader("**Cosmic Harmonics**")
+    st.markdown("""
+    **Schumann Resonance (7.83 Hz):** Earth's fundamental frequency for grounding and alpha/theta alignment.
+    **Universal Healing (432 Hz):** Cosmic harmony frequency for healing and balance.
+    **Planetary Frequencies:** Each planet has specific frequencies (Mars: 144.72 Hz, Venus: 221.23 Hz).
+    **Phi Ratio Frequencies:** Golden ratio (1.618) based tones for natural harmony.
+    """)
+
+    st.subheader("**Frequency Riding Protocol**")
+    st.markdown("""
+    1. **Ground** with Schumann resonance (7.83 Hz)
+    2. **Relax** with alpha waves (8-12 Hz)
+    3. **Meditate** in theta (4-8 Hz)
+    4. **Access Insight** with gamma (30-100 Hz)
+    5. **Integrate** back through beta waves (12-30 Hz)
+    """)
+
+with tab17:
+    # Akashic Records Tab
+    st.header("**📖 AKASHIC RECORDS ACCESS**")
+    st.markdown("**Access the cosmic library of all knowledge, past, present, and future.**")
+
+    st.subheader("**What are the Akashic Records?**")
+    st.markdown("""
+    **Ancient Wisdom:** Akashic Records from Theosophy (Madame Blavatsky), Hindu concept of akasha (ether).
+    **Cosmic Library:** Contains every thought, word, emotion, and intent that has ever occurred.
+    **Access Points:** Theta brainwave states allow conscious access to this infinite knowledge.
+    **Scientific Correlation:** Theta states access subconscious archives and collective unconscious.
+    """)
+
+    st.subheader("**Meditation Access Protocol**")
+    st.markdown("""
+    **Preparation (5-10 minutes):**
+    1. Find quiet space, sit comfortably
+    2. Ground yourself with deep breathing
+    3. Set clear intention for what you seek
+
+    **Access (15-20 minutes):**
+    4. Enter theta state through progressive relaxation
+    5. Visualize Hall of Records or crystal library
+    6. Ask specific questions with pure intention
+    7. Receive information through clairvoyance, clairaudience, or knowing
+
+    **Integration:**
+    8. Journal all received information
+    9. Thank the Records and close the session
+    10. Ground with physical activity
+    """)
+
+    st.subheader("**Access Methods**")
+    access_methods = {
+        "Golden Book Method": "Open your personal Akashic record like a book, read past/future lives",
+        "Council of Elders": "Seek guidance from higher self and spirit guides",
+        "Past Life Regression": "Access soul history for healing and understanding",
+        "Crystal Library": "Browse infinite shelves of knowledge crystals"
+    }
+
+    selected_method = st.selectbox("**Choose Access Method**", list(access_methods.keys()))
+    st.write(f"**{selected_method}:** {access_methods[selected_method]}")
+
+    query_topic = st.text_input("**What knowledge do you seek?**", placeholder="e.g., soul purpose, past life healing, future guidance")
+    if st.button("**📖 Open Akashic Records**") and query_topic:
+        st.success(f"**Akashic Records accessed for: '{query_topic}'**")
+        st.info("**Guidance:** Enter meditation, visualize the Records, ask your question clearly, and receive with an open heart.")
+        if st.session_state.user_profile.get('name'):
+            log_session('Akashic Records Access', 20, f'Queried: {query_topic}')
+
+    st.subheader("**Enhanced Access Techniques**")
+    st.markdown("""
+    **Binaural Beats:** Use 4-7 Hz theta frequencies for deeper access.
+    **Sacred Geometry:** Visualize Flower of Life or Metatron's Cube as access portals.
+    **Mantras:** Chant "OM" or "AUM" to align vibration with cosmic records.
+    **Crystal Amplification:** Use clear quartz or selenite to amplify connection.
+    """)
+
+with tab18:
+    # Cosmic Expansion Tab
+    st.header("**🌌 COSMIC EXPANSION & UNIVERSAL CONSCIOUSNESS**")
+    st.markdown("**Expand consciousness beyond physical awareness into cosmic and universal realms.**")
+
+    st.subheader("**Merkaba Light Body Activation**")
+    st.markdown("""
+    **Ancient Wisdom:** Merkavah mysticism from Kabbalah and esoteric traditions.
+    **Light Body:** Counter-rotating tetrahedral fields around the body.
+    **Benefits:** Dimensional navigation, ascension, cosmic consciousness.
+    """)
+
+    st.subheader("**Merkaba Activation Protocol**")
+    st.markdown("""
+    **Foundation (Week 1-2):**
+    1. Learn to visualize tetrahedrons
+    2. Practice basic shape holding for 5-10 minutes
+    3. Feel the energy field building
+
+    **Activation (Week 3-4):**
+    4. Electric tetrahedron: Visualize counter-clockwise rotation
+    5. Magnetic tetrahedron: Visualize clockwise rotation
+    6. Interlock the two fields
+    7. Expand field to room size, then universal scale
+
+    **Mastery:**
+    8. Maintain field during daily activities
+    9. Use for healing and manifestation
+    10. Navigate dimensions consciously
+    """)
+
+    if st.button("**🔺 Begin Merkaba Activation**"):
+        st.success("**Merkaba Activation Sequence Started!**")
+        st.markdown("""
+        **Step 1:** Close eyes, breathe deeply. Visualize a tetrahedron above your head.
+        **Step 2:** Create second tetrahedron below your feet, pointing down.
+        **Step 3:** Rotate electric field counter-clockwise, magnetic clockwise.
+        **Step 4:** Feel the fields merge and expand around you.
+        """)
+
+    st.subheader("**Unity Consciousness Practices**")
+    st.markdown("""
+    **Interconnectedness Meditation:** Experience entanglement with all beings.
+    **Brahman Realization:** "Tat Tvam Asi" - Thou art That.
+    **Quantum Entanglement:** Non-local connections explain unity.
+    """)
+
+    unity_practice = st.selectbox("**Choose Unity Practice**", [
+        "Interconnectedness Visualization",
+        "Self-Inquiry Meditation",
+        "Entanglement Awareness",
+        "Universal Love Field"
+    ])
+
+    if st.button("**🌟 Practice Unity Consciousness**"):
+        if unity_practice == "Interconnectedness Visualization":
+            st.info("**Practice:** Visualize golden threads connecting you to every being, plant, and star in the universe.")
+        elif unity_practice == "Self-Inquiry Meditation":
+            st.info("**Practice:** Ask 'Who am I?' repeatedly, tracing awareness back to its source.")
+        elif unity_practice == "Entanglement Awareness":
+            st.info("**Practice:** Feel instant connection with distant loved ones, knowing separation is illusion.")
+        else:
+            st.info("**Practice:** Generate unconditional love, feeling it expand to fill the universe.")
+
+    st.subheader("**Cosmic Expansion Techniques**")
+    st.markdown("""
+    **Light Body Ascension:** Progressive energy body activation through chakras.
+    **Universal Man:** Expand awareness to planetary, solar system, galactic scales.
+    **Source Mergence:** Dissolve ego in infinite consciousness.
+    **Scientific Validation:** Gamma synchrony correlates with unity experiences.
+    """)
+
+with tab19:
+    # Source Connection Tab
+    st.header("**🔗 SOURCE CONNECTION & DIVINE UNION**")
+    st.markdown("**Establish constant resonant connection to the divine source and universal intelligence.**")
+
+    st.subheader("**Unity Consciousness & Brahman Realization**")
+    st.markdown("""
+    **Advaita Vedanta:** "Tat Tvam Asi" (Thou art That) - Non-dual awareness.
+    **Quantum Basis:** Entanglement demonstrates non-local unity.
+    **Practice:** "I am" meditations experiencing interconnectedness.
+    """)
+
+    st.subheader("**Divine Connection Methods**")
+    connection_methods = {
+        "Bhakti Yoga": "Devotional surrender, chanting divine names",
+        "Jnana Yoga": "Self-inquiry 'Who am I?' (Ramana Maharshi)",
+        "Raja Yoga": "Eight-limbed path (Patanjali's Yoga Sutras)",
+        "Sufi Dhikr": "Repetition of sacred phrases for remembrance",
+        "Christian Mysticism": "Embody Christ consciousness through love"
+    }
+
+    selected_method = st.selectbox("**Choose Connection Method**", list(connection_methods.keys()))
+    st.write(f"**{selected_method}:** {connection_methods[selected_method]}")
+
+    if st.button("**🙏 Connect to Source**"):
+        if selected_method == "Bhakti Yoga":
+            st.success("**Bhakti Practice:** Chant divine names with devotion. Feel love flowing to and from the divine.")
+        elif selected_method == "Jnana Yoga":
+            st.success("**Jnana Practice:** Sit quietly and ask 'Who am I?' Follow the question to its source.")
+        elif selected_method == "Raja Yoga":
+            st.success("**Raja Practice:** Follow the eight limbs: yamas, niyamas, asana, pranayama, pratyahara, dharana, dhyana, samadhi.")
+        elif selected_method == "Sufi Dhikr":
+            st.success("**Dhikr Practice:** Repeat 'La ilaha illallah' or 'Allah Hu' with each breath.")
+        else:
+            st.success("**Christian Practice:** Practice centering prayer, feeling Christ's presence within.")
+
+    st.subheader("**Constant Resonance Techniques**")
+    st.markdown("""
+    **Remembrance Practice:** Maintain "God consciousness" throughout the day.
+    **Divine Union:** Embody divine qualities in every action.
+    **Scientific Correlation:** Meditation increases gamma synchrony, correlating with unity states.
+    """)
+
+    st.subheader("**Source Connection Protocol**")
+    st.markdown("""
+    **Daily Practice:**
+    1. **Morning Alignment:** 15 minutes meditation on unity
+    2. **Throughout Day:** Brief remembrance moments
+    3. **Evening Integration:** Journal divine connections experienced
+    4. **Sleep Connection:** Fall asleep in divine awareness
+
+    **Advanced Practice:**
+    5. **Continuous Awareness:** Maintain connection during all activities
+    6. **Service Integration:** See divine in all beings
+    7. **Complete Surrender:** Release ego control to divine will
+    """)
+
+    if st.button("**🔗 Establish Source Resonance**"):
+        st.success("**Source Connection Activated!** Feel the divine presence in every breath, every thought, every action.")
+        if st.session_state.user_profile.get('name'):
+            log_session('Source Connection', 30, f'Practiced {selected_method} for divine union')
 
 # Final section with enhanced features
